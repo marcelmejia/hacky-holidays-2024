@@ -104,7 +104,7 @@ export default function Index() {
               <td valign="top" className="py-2 px-2 border-b border-gray-800">{formatter.format(item.mrr_impact)}</td>
               <td valign="top" className="py-2 px-2 border-b border-gray-800">
                 <div className="border border-gray-700 rounded-md text-xs h-8 inline-block whitespace-nowrap float-right">
-                  <Link to={`/quotes/${item.id}`} className="text-gray-300 hover:text-white inline-block float-left h-8 leading-8 px-3 font-medium">View</Link>
+                  <Link to={`/quotes/${item.id}/line-items`} className="text-gray-300 hover:text-white inline-block float-left h-8 leading-8 px-3 font-medium">View</Link>
                   <button className="border-l border-l-gray-700 h-8 py-2 px-3 inline-block group">
                     <span className="inline-block border-t-4 border-t-gray-500 group-hover:border-t-gray-300 w-2 h-4 border-r-4 border-r-transparent border-l-4 border-l-transparent mt-[.38rem]"></span>
                   </button>

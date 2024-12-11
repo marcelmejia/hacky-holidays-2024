@@ -1,8 +1,16 @@
-# Welcome to Remix!
+# Expedient Hacky Holidays 2024!
 
-- 📖 [Remix docs](https://remix.run/docs)
+New Expedient App concept built with [Remix](https://remix.run)
+
+📖 [Remix docs](https://remix.run/docs)
 
 ## Development
+
+Clone the repo.
+
+Install dependencies with `npm install`
+
+`cp .env.dist .env` and set the API token and URL.
 
 Run the dev server:
 
